@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "PandicaZoo",
+    "slug": "pki3_mobile",
+    "version": "3.6.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffedd5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffeccc"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.vanja_dev.pandicaZoo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e9d63b91-37b1-48d4-bdb6-4ee498ccb2e9"
+      }
+    }
+  }
+}
